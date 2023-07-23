@@ -30,7 +30,7 @@
 
 
 
-[Link do T-Beam ](https://pt.aliexpress.com/item/32967228739.html)
+[Link T-Beam ](https://pt.aliexpress.com/item/32967228739.html)
 
 ![T-Beam ](TBeam.jpg)
 

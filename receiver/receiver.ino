@@ -3,10 +3,10 @@
 #include <LoRa.h>
 
 //define the pins used as outputs
-#define PIN_TO_READ_BLUE 21  // Pin do odczytu dioda niebieska
-#define PIN_TO_READ_RED 22   // Pin do odczytu dioda czerwona 1
-#define PIN_TO_READ_GREEN 0   // Pin do odczytu dioda zielona
-#define PIN_TO_READ_RED2 4   // Pin do odczytu dioda czerwona 2
+#define PIN_TO_READ_BLUE 21  // Pin to read blue diode
+#define PIN_TO_READ_RED 22   // Pin to read red diode 1
+#define PIN_TO_READ_GREEN 0   // Pin to read diode green
+#define PIN_TO_READ_RED2 4   // Pin to read diode red 2
 
 //define the pins used by the LoRa transceiver module
 #define SCK 5

@@ -34,7 +34,7 @@
 
 ![T-Beam SX1278/76](TBeam.jpg)
 
-[Link do T-Beam SX1262](https://pt.aliexpress.com/item/4001287221970.html)
+
 
 
 

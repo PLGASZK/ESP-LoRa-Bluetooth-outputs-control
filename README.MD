@@ -20,10 +20,10 @@
 
 ## Product 📷
 
-| Product                                   | Product Link            | Schematic                                         | Corresponding example macro definition   |
-| :---------------------------------------: | :----------------------:| :-----------------------------------------------:| :--------------------------------------:|
-| [T-Beam SX1278/76][1-4]                   | [AliExpress][1]         | [TBeamV0.7][1-1] / [TBeamV1.0][1-2] / [TBeamV1.1][1-3] | LILYGO_TBeam_V0_7 / LILYGO_TBeam_V1_X   |
-| [T-Beam SX1262][1-4]                      | [AliExpress][2]         | [TBeamV0.7][1-1] / [TBeamV1.0][1-2] / [TBeamV1.1][1-3] | LILYGO_TBeam_V0_7 / LILYGO_TBeam_V1_X   |
+| Product                                   | Product Link            | Schematic                                              | Corresponding example macro definition  |
+| :---------------------------------------: | :----------------------:| :-----------------------------------------------:      | :--------------------------------------:|
+| [T-Beam ][1-4]                            | [AliExpress][1]         | [TBeamV0.7][1-1] / [TBeamV1.0][1-2] / [TBeamV1.1][1-3] | LILYGO_TBeam_V0_7 / LILYGO_TBeam_V1_X   |
+
 
 
 
@@ -32,7 +32,7 @@
 
 [Link do T-Beam ](https://pt.aliexpress.com/item/32967228739.html)
 
-![T-Beam SX1278/76](TBeam.jpg)
+![T-Beam ](TBeam.jpg)
 
 
 
@@ -61,12 +61,7 @@ Created an application using MIT App Inventor for android, it has an inferface w
 │  └─LoRaSenderBt
 ```
 
-## Radio resolution
 
-How to distinguish the model of Radio just need to look at the sticker on the board, 
-433MHz is SX1278,
-868MHz is SX1276,
-If the label says SX1262 then it is SX1262
 
 
 

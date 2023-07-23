@@ -30,7 +30,7 @@
 
 
 
-[Link do T-Beam SX1278/76](https://pt.aliexpress.com/item/32967228739.html)
+[Link do T-Beam ](https://pt.aliexpress.com/item/32967228739.html)
 
 ![T-Beam SX1278/76](TBeam.jpg)
 
@@ -38,12 +38,12 @@
 
 
 
-<!-- [1]: https://pt.aliexpress.com/item/32967228739.html "T-Beam SX1278/76"
+[1]: https://pt.aliexpress.com/item/32967228739.html "T-Beam SX1278/76"
 [1-1]: !(file:ESP%20LoRa%20%2B%20Bluetooth%20control%20Outputs/TBeam.jpg)
 [1-2]: !(file:ESP%20LoRa%20%2B%20Bluetooth%20control%20Outputs/TBeam.jpg)
 [1-3]: !(file:ESP%20LoRa%20%2B%20Bluetooth%20control%20Outputs/TBeam.jpg)
 [1-4]: !(file:ESP%20LoRa%20%2B%20Bluetooth%20control%20Outputs/TBeam.jpg)
-[2]: https://pt.aliexpress.com/item/4001287221970.html "T-Beam SX1262" -->
+[2]: https://pt.aliexpress.com/item/4001287221970.html "T-Beam SX1262"
 
 
 

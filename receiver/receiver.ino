@@ -63,28 +63,28 @@ void loop() {
 
       // Check the message and control the pins
       if (LoRaMessage == "Drive") {
-        digitalWrite(PIN_TO_READ_BLUE, HIGH); // Zapal pin 21 (dioda niebieska)
+        digitalWrite(PIN_TO_READ_BLUE, HIGH); // Set High pin 21 (blue diode)
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "NoDrive") {
-        digitalWrite(PIN_TO_READ_BLUE, LOW);   // Wyłącz pin 21 (dioda niebieska)
+        digitalWrite(PIN_TO_READ_BLUE, LOW);   // Set Low 21 (blue diode)
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "Left") {
-        digitalWrite(PIN_TO_READ_RED, HIGH);   // Zapal pin 22 (dioda czerwona1)
+        digitalWrite(PIN_TO_READ_RED, HIGH);   // Set High 22 (red diode 1)
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "NoLeft") {
-        digitalWrite(PIN_TO_READ_RED, LOW);   // Wyłącz pin 22 (dioda czerwona1)
+        digitalWrite(PIN_TO_READ_RED, LOW);   // Set Low 22 (red diode 1)
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "Right") {
-        digitalWrite(PIN_TO_READ_GREEN, HIGH);   // Zapal pin 0 (dioda zielona)
+        digitalWrite(PIN_TO_READ_GREEN, HIGH);   // Set High 0 (green diode )
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "NoRight") {
-        digitalWrite(PIN_TO_READ_GREEN, LOW);   // Wyłącz pin 0 (dioda zielona)
+        digitalWrite(PIN_TO_READ_GREEN, LOW);   // Set Low 0 (green diode)
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "Reverse") {
-        digitalWrite(PIN_TO_READ_RED2, HIGH);   // Zapal pin 4 (dioda czerwona2)
+        digitalWrite(PIN_TO_READ_RED2, HIGH);   // Set High 4 (red diode 2)
         Serial.print(LoRaMessage);
       } else if (LoRaMessage == "NoReverse") {
-        digitalWrite(PIN_TO_READ_RED2, LOW);   // Wyłącz pin 4 (dioda czerwona2)
+        digitalWrite(PIN_TO_READ_RED2, LOW);   // Set Low 4 (red diode 2)
         Serial.print(LoRaMessage);
       }
 
@@ -96,46 +96,3 @@ void loop() {
   
       }
       }
-
-//void loop() {
-//  int packetSize = LoRa.parsePacket();
-//  if (packetSize) {////////////////////////////////////////
-//    String receivedMessage = "";
-//
-//    while (LoRa.available()) {
-//      receivedMessage += (char)LoRa.read();
-//    }
-//
-//    // Wyodrębnij wiadomość "hello" lub "nohello"
-//    String message = "";
-//    int newLineIndex = receivedMessage.indexOf('\n');
-//    if (newLineIndex != -1) {
-//      message = receivedMessage.substring(0, newLineIndex);
-//    }
-//
-//    Serial.print("Odebrano wiadomość: ");
-//    Serial.println(message);
-//
-//    // Wyodrębnij numer paczki
-//    String packetNumberStr = receivedMessage.substring(newLineIndex + 1);
-//    int packetNumber = packetNumberStr.toInt();
-//
-//    Serial.print("Numer paczki: ");
-//    Serial.println(packetNumber);
-//
-//    // Tutaj możesz dodać kod, który obsłuży odebraną wiadomość lub numer paczki w odpowiedni sposób.
-//
-//    // Następnie możesz dodać instrukcje warunkowe, aby podejmować działania w zależności od otrzymanej wiadomości lub numeru paczki.
-//    // Na przykład:
-//    if (message == "hello") {
-//      Serial.println("Odebrano wiadomość 'hello'");
-//      // Dodaj tutaj kod, który wykonuje się po odebraniu wiadomości 'hello'
-//    } else if (message == "nohello") {
-//      Serial.println("Odebrano wiadomość 'nohello'");
-//      // Dodaj tutaj kod, który wykonuje się po odebraniu wiadomości 'nohello'
-//    } else {
-//      Serial.println("Nieznana wiadomość");
-//      // Dodaj tutaj kod, który wykonuje się w przypadku otrzymania innej wiadomości
-//    }
-//  }
-//}

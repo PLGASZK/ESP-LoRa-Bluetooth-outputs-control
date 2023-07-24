@@ -125,7 +125,7 @@ void LoRaSendDrive() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -134,7 +134,7 @@ void LoRaSendNoDrive() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -143,7 +143,7 @@ void LoRaSendLeft() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -152,7 +152,7 @@ void LoRaSendNoLeft() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -161,7 +161,7 @@ void LoRaSendRight() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -170,7 +170,7 @@ void LoRaSendNoRight() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -179,7 +179,7 @@ void LoRaSendReverse() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }
 
@@ -188,6 +188,6 @@ void LoRaSendNoReverse() {
   LoRa.beginPacket();
   LoRa.print(LoRaMessage);
   LoRa.endPacket();
-  Serial.println("Wysłano wiadomość: " + LoRaMessage);
+  Serial.println("Sended message: " + LoRaMessage);
   
 }

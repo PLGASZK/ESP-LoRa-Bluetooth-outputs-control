@@ -24,14 +24,16 @@
 void setup() {
   //initialize Serial Monitor
   Serial.begin(115200);
+  //defining pins as outputs
   pinMode(PIN_TO_READ_BLUE, OUTPUT);
   pinMode(PIN_TO_READ_RED, OUTPUT);
   pinMode(PIN_TO_READ_GREEN, OUTPUT);
   pinMode(PIN_TO_READ_RED2, OUTPUT);
-  digitalWrite(PIN_TO_READ_BLUE, LOW); // Zapal pin 21 (dioda niebieska)
-  digitalWrite(PIN_TO_READ_RED, LOW);   // Wyłącz pin 22 (dioda czerwona 1)
-  digitalWrite(PIN_TO_READ_GREEN, LOW); // Zapal pin 21 (dioda niebieska)
-  digitalWrite(PIN_TO_READ_RED2, LOW);   // Wyłącz pin 22 (dioda czerwona 1)
+  //setting initial states to low
+  digitalWrite(PIN_TO_READ_BLUE, LOW); // set low pin 21 (blue diode)
+  digitalWrite(PIN_TO_READ_RED, LOW);   // set low pin 22 (red diode)
+  digitalWrite(PIN_TO_READ_GREEN, LOW); // set low pin 21 (green diode)
+  digitalWrite(PIN_TO_READ_RED2, LOW);   // set low pin 22 (red diode 2)
 
 
 
